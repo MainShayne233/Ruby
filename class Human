@@ -1,0 +1,7 @@
+class Human
+	attr_accessor :name, :height, :weight
+
+	def breathe
+		puts self.name + " breathes"
+	end
+end
